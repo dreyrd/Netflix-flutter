@@ -61,6 +61,20 @@ flutter:
   assets:
    - assets/images/
 
+
+  fonts:
+    - family: BebasNeue
+      fonts:
+          - asset: assets/fonts/BebasNeue-Regular.ttf
+
+    - family: GothamLight
+      fonts:
+        - asset: assets/fonts/GOTHAM-LIGHT.ttf
+
+    - family: GothamMedium
+      fonts:
+        - asset: assets/fonts/GOTHAM-MEDIUM.ttf
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
@@ -72,10 +86,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+#   fonts:
+#     - family: BebasNeue
+#       fonts:
+#         - asset: assets/fonts/BebasNeue-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
